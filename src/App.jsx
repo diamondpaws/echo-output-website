@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import echoOutputLogo from './assets/echo-output-logo.png';
 
 function App() {
   return (
@@ -10,7 +9,11 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <img src={echoOutputLogo} alt="Echo Output" className="h-8 w-auto" />
+              <div className="flex items-center space-x-2">
+  <span className="text-2xl">🎵</span>
+  <span className="font-bold text-xl text-blue-600">Echo Output</span>
+</div>
+
               <div className="font-bold text-xl text-blue-900">Echo Output</div>
             </div>
             <div className="hidden md:flex space-x-8">
